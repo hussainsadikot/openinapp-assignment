@@ -11,14 +11,15 @@ const Signup = () => {
     const handleSignInBtn = ()=>{
         console.log('sign in')
     }
-
+    // const myStyle={ backgroundImage: `url(${leftSideBg})` ,}
     return (
         <div className='w-full h-screen flex items-start'>
-            <div className='relative w-1/2 h-full flex flex-col '>
+            <div className='relative w-1/2 h-full flex flex-col ' style={{backgroundImage:`url(${leftSideBg})`}}>
                 <div
                 className='absolute top-[1%] left-[10%] flex flex-col'
                 >
                     <h1 className='text-xl text-white font-bold my-4'>Logo</h1>
+                  
                     
                     
 
@@ -36,9 +37,9 @@ const Signup = () => {
                     <img src={bottom} alt="" />
                         </div>
                
-                    <img src={leftSideBg} className='w-full h-full
+                    {/* <img src={leftSideBg} className='w-full h-full
                     
-                    ' />
+                    ' /> */}
               
             </div>
             <div className='w-1/2 h-full bg-bghome flex flex-col p-20

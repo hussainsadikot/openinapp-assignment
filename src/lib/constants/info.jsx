@@ -32,31 +32,31 @@ export const DASHBOARD_SIDEBAR_LINKS = [
 	{
 		key: 'dashboard',
 		label: 'Dashboard',
-		path: '/',
+		path: '/dashboard',
 		icon: <AiOutlinePieChart />
 	},
 	{
 		key: 'transactions',
 		label: 'Transactions',
-		path: '/transactions',
+		path: '/dashboard/transactions',
 		icon: <BsTags />
 	},
 	{
 		key: 'schedules',
 		label: 'Schedules',
-		path: '/schedules',
+		path: '/dashboard/schedules',
 		icon: <AiFillSchedule />
 	},
 	{
 		key: 'users',
 		label: 'Users',
-		path: '/users',
+		path: '/dashboard/users',
 		icon: <BiUserCircle />
 	},
 	{
 		key: 'settings',
 		label: 'Settings',
-		path: '/settings',
+		path: '/dashboard/settings',
 		icon: <AiOutlineSetting />
 	},
 	
@@ -66,13 +66,13 @@ export const DASHBOARD_SIDEBAR_BOTTOM_LINKS = [
     {
         key: 'support',
         label: 'Help & Support',
-        path: '/support',
+        path: '/dashboard/support',
         
     },
 	{
 		key: 'contactus',
 		label: 'Contact US',
-		path: '/contactus',
+		path: '/dashboard/contactus',
 		
 	},
 ]
